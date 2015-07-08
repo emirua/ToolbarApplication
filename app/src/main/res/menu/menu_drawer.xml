@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/action_invite"
+            android:checked="true"
+            android:icon="@drawable/ic_action_invite"
+            android:title="@string/menu_invite" />
+        <item
+            android:id="@+id/action_share"
+            android:icon="@drawable/ic_action_search"
+            android:title="@string/menu_share" />
+        <item
+            android:id="@+id/action_buy"
+            android:icon="@drawable/ic_action_buy"
+            android:title="@string/menu_buy" />
+        <item
+            android:id="@+id/action_sell"
+            android:icon="@drawable/ic_action_sell"
+            android:title="@string/menu_sell" />
+
+        <item android:title="Sub Menu">
+            <menu>
+                <item
+                    android:icon="@android:drawable/ic_lock_silent_mode_off"
+                    android:title="Hola" />
+                <item
+                    android:icon="@android:drawable/ic_dialog_alert"
+                    android:title="Adio" />
+            </menu>
+        </item>
+    </group>
+</menu>

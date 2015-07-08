@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ToolbarApplication</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="header_description">Beatlemania</string>
+    <string name="menu_invite">Invite</string>
+    <string name="menu_share">Share a Beatle</string>
+    <string name="menu_buy">Buy Songs</string>
+    <string name="menu_sell">Sell Stuff</string>
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

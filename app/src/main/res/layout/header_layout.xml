@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_height"
+    android:id="@+id/header">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/header_description"
+        android:scaleType="centerCrop"
+        android:src="@drawable/beatles"
+        android:alpha=".8"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/header_padding"
+        android:paddingBottom="@dimen/header_padding"
+        android:paddingRight="@dimen/header_padding"
+        android:paddingTop="@dimen/header_padding_top">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/view"
+            android:layout_width="@dimen/header_image_size"
+            android:layout_height="@dimen/header_image_size"
+            android:src="@drawable/elvis_profile_pic"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:textColor="@color/toolbar_second_color"
+            android:text="Elvis Presley"
+            android:textSize="18sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="el.biz@pressi.com"
+            android:textColor="@color/toolbar_second_color"
+            />
+
+        </LinearLayout>
+
+
+
+
+</FrameLayout>
