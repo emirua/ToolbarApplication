@@ -26,7 +26,7 @@
                     android:title="Hola" />
                 <item
                     android:icon="@android:drawable/ic_dialog_alert"
-                    android:title="Adio" />
+                    android:title="Adios" />
             </menu>
         </item>
     </group>
